@@ -1,6 +1,15 @@
+/*
+ * File:1-last_digit.c
+ * Auth: Stacey G Hlophe
+ */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/**
+ * main - gives last digits of random numbers
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 	int n, last_digit;
