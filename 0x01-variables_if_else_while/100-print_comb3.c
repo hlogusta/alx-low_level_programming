@@ -13,18 +13,16 @@
  */
 int main(void)
 {
-	int digit1, digit2;
+	int dig1, dig2;
 
-	for (digit1 = 0; digit1 < 9; digit1++)
+	for (dig1 = 0; dig1 < 9; dig1++)
 	{
-		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+		for (dig2 = dig1 + 1; dig2 < 10; dig2++)
 		{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
-
-			if (digit1 == 8 && digit2 == 9)
+			putchar((dig1 % 10) + '0');
+			putchar((dig2 % 10) + '0');
+			if (dig1 == 8 && dig2 == 9)
 				continue;
-			
 			putchar(',');
 			putchar(' ');
 		}
