@@ -7,8 +7,8 @@
 
 /**
  * mul - multiplies two integers.
- * @a: the number to be multiplied.
- * @b: the number to be multiplied.
+ * @a: first integer to be multiplied.
+ * @b: second integer to be multiplied.
  *
  * Return: the result of multiplication.
  */
