@@ -10,6 +10,7 @@
 
 #include <stddef.h>
 
+void simple_print_buffer(char *buffer, unsigned int size);
 int _putchar(char c);
 void *_memset(void *s, int c, size_t n);
 char *_memcpy(char *dest, char *src, unsigned int n);
