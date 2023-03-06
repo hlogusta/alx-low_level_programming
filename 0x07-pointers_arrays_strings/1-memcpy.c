@@ -1,6 +1,6 @@
 /*
  * File: 1-memcpy.c
- * Auth: Brennan D Baraban
+ * Auth: Stacey G Hlophe
  */
 
 #include "main.h"
