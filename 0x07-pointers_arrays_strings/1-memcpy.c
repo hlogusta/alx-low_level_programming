@@ -1,3 +1,8 @@
+/*
+ * File: 1-memcpy.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "main.h"
 
 /**
