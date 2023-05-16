@@ -59,7 +59,7 @@ int _atoi(char *p)
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int s1, s2, equal;
 
 	  if (argc < 3 || argc > 3)
         {
@@ -68,8 +68,6 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	
-	int s1, s2, equal;
-
 	s1 = _atoi(argv[1]);
 	s2 = _atoi(argv[2]);
 	equal = s1 * s2;
