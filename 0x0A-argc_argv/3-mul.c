@@ -51,20 +51,17 @@ int _atoi(char *p)
  * main - a program that multiplies two numbers.
  * @argc: argument count.
  * @argv: argument array.
- * @s1: first number.
- * @s2: second number
- * @equal: multiplication of s1 and s2.
  * Return: 1(Error) and 0(Success).
  */
 
 int main(int argc, char *argv[])
 {
 	int s1, s2, equal;
-
-	  if (argc < 3 || argc > 3)
+	
+	if (argc < 3 || argc > 3)
         {
-                printf("Error\n");
-
+		printf("Error\n");
+		
 		return (1);
 	}
 	
