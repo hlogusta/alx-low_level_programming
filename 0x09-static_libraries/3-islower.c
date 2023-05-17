@@ -4,7 +4,12 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _islower - observed function.
+ * @c: input argument.
+ * Return: integer
+ */
 int _islower(int c)
 {
-    return (c >= 'a' && c <= 'z');
+	return (c >= 'a' && c <= 'z');
 }

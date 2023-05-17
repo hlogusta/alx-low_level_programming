@@ -4,7 +4,11 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _puts - observed function.
+ * @s: input argument
+ */
 void _puts(char *s)
 {
-    puts(s);
+	puts(s);
 }

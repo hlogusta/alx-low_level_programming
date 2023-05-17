@@ -3,8 +3,13 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-int _atoi(char *s)
 
+/**
+ * _atoi - observed function.
+ * @s: input argument.
+ * Return: integer.
+ */
+int _atoi(char *s)
 {
-    return atoi(s);
+	return (atoi(s));
 }

@@ -4,7 +4,12 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _isalpha - observed function.
+ * @c: input argument.
+ * Return: integer.
+ */
 int _isalpha(int c)
 {
-    return isalpha(c);
+	return (isalpha(c));
 }
